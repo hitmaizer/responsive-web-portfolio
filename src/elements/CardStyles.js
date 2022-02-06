@@ -8,7 +8,7 @@ export default styled.div`
     padding: 16px;
     background-color: ${(props) => props.theme.colors.whiteCardBg};
     font-family: ${(props) => props.theme.fonts.montserrat};
-    max-width: 400px;
+    
     border-radius: 12px;
     cursor: pointer;
     transition: transform 0.2s ease;
