@@ -1,0 +1,33 @@
+.skills__section {
+    display: inline-block;
+    min-width: 250px;
+    
+}
+
+.skills__card {
+    place-items: flex-start;
+    gap: 4px;
+}
+
+.skills__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $darkGray;
+    place-self: flex-start;
+}
+
+.skills__item {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: $darkGray;
+}

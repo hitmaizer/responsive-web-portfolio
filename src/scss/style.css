@@ -167,3 +167,38 @@ a, a:visited, a:hover, a:active {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.skills__section {
+  display: inline-block;
+  min-width: 250px;
+}
+
+.skills__card {
+  place-items: flex-start;
+  gap: 4px;
+}
+
+.skills__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #4F4F4F;
+  place-self: flex-start;
+}
+
+.skills__item {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.item__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4F4F4F;
+}

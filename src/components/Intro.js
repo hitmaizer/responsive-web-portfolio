@@ -12,7 +12,7 @@ export default function Intro(props) {
                     <div className="info__details flex-row">
                         <div className="details">
                             <h3 className="details__name">José Alves</h3>
-                            <p className="details__position">Front-end developer</p>
+                            <p className="details__position">Front End Developer</p>
                         </div>
                         <div className="details__contacts">
                             <div className="contacts__item flex-row">
