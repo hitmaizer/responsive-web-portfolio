@@ -9,7 +9,7 @@ export default styled.button`
   padding: 12px 32px;
   cursor: pointer;
   transition: all 1ms ease-out;
-  max-width: 135px;
+  // max-width: 135px;
   max-height: 46px;
 
 
