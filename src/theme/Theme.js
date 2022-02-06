@@ -1,6 +1,7 @@
 const Theme = {
     colors: {
         primaryBlue: "#2F80ED",
+        darkenBlue: "#0b3e82",
         offWhiteBg: "#F2F2F2",
         whiteCardBg: "#FFFFFF",
         darkGray: "#4F4F4F",
