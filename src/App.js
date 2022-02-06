@@ -1,11 +1,13 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import Theme from "./theme/Theme"
-import WorksCard from "./components/WorksCard"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Intro from "./components/Intro"
 import Skills from './components/Skills';
 import Certificates from "./components/Certificates"
+import Hobbies from "./components/Hobbies"
+import Works from "./components/Works"
+import Filter from './components/Filter';
 
 export default function App() {
     return (
@@ -22,7 +24,15 @@ export default function App() {
                         <div className="certificates__section">
                             <Certificates />
                         </div>
-                        <WorksCard />
+                        <div className="hobbies__section">
+                            <Hobbies />
+                        </div>
+                        <div className="filter__section">
+                            <Filter />
+                        </div>
+                        <div className="works__section">
+                            <Works />
+                        </div>
                     </div>
                 </ThemeProvider>
             </div>
