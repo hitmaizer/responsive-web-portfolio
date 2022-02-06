@@ -265,3 +265,59 @@ a, a:visited, a:hover, a:active {
   color: #828282;
   max-width: 380px;
 }
+
+.hobbies__section {
+  display: inline-block;
+}
+
+.hobbies__card {
+  gap: 24px;
+  place-items: center;
+}
+
+.hobbie__card {
+  justify-items: center;
+}
+
+.hobbies__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F4F4F;
+  width: 100%;
+  justify-self: flex-start;
+}
+
+.hobbie__img {
+  max-height: 100%;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+
+.hobbie__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.hobbie__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  max-width: 350px;
+}
+
+.works__card {
+  gap: 32px;
+}
+
+.filter__card {
+  display: inline-block;
+}
