@@ -1,3 +1,16 @@
 .filter__card {
     display: inline-block;
+    padding: 16px;
+}
+
+.filter__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $darkGray;
+}
+
+.filter__btns {
+    gap: 16px;
 }
