@@ -158,7 +158,7 @@ a, a:visited, a:hover, a:active {
   font-size: 18px;
   line-height: 22px;
   color: #828282;
-  max-width: 658px;
+  max-width: 650px;
 }
 
 .contacts__item {
@@ -170,12 +170,16 @@ a, a:visited, a:hover, a:active {
 
 .skills__section {
   display: inline-block;
-  min-width: 250px;
+  min-width: 275px;
+}
+
+.skill__frontend, .skill__design {
+  width: 100%;
 }
 
 .skills__card {
   place-items: flex-start;
-  gap: 4px;
+  gap: 32px;
 }
 
 .skills__title {
@@ -186,6 +190,7 @@ a, a:visited, a:hover, a:active {
   text-transform: uppercase;
   color: #4F4F4F;
   place-self: flex-start;
+  margin-bottom: 16px;
 }
 
 .skills__item {
@@ -201,4 +206,62 @@ a, a:visited, a:hover, a:active {
   font-size: 16px;
   line-height: 20px;
   color: #4F4F4F;
+}
+
+.certificates__section {
+  display: inline-block;
+}
+
+.certificates__card {
+  gap: 32px;
+}
+
+.certificates__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F4F4F;
+}
+
+.certificate__item {
+  gap: 24px;
+}
+
+.certificate__img {
+  max-height: 100%;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+
+.certificate__info {
+  place-items: flex-start;
+  gap: 8px;
+}
+
+.certificate__date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+.certificate__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4F4F4F;
+}
+
+.certificate__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  max-width: 380px;
 }

@@ -1,12 +1,16 @@
 .skills__section {
     display: inline-block;
-    min-width: 250px;
+    min-width: 275px;
     
 }
 
+.skill__frontend, .skill__design {
+    width: 100%;
+} 
+
 .skills__card {
     place-items: flex-start;
-    gap: 4px;
+    gap: 32px;
 }
 
 .skills__title {
@@ -17,6 +21,7 @@
     text-transform: uppercase;
     color: $darkGray;
     place-self: flex-start;
+    margin-bottom: 16px;
 }
 
 .skills__item {

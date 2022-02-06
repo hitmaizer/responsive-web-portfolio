@@ -25,7 +25,7 @@ export default function Intro(props) {
                             </div>
                         </div>
                     </div>
-                    <p className="intro__bio">Self-motivated developer, who is willing to learn and
+                    <p className="intro__bio">Self-taught developer, who is willing to learn and
                     create outstanding UI.<br />
                     <br />
                     On this page you will be able to get to know some of my work a bit better.
