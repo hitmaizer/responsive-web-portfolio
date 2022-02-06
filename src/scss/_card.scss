@@ -1,0 +1,38 @@
+.card__tags {
+    gap: 8px;
+    place-self: flex-start;
+}
+
+
+.card__tags--item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: $darkGray;
+    
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    place-self: flex-start;
+}
+
+.card__description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: $lightGray;
+    margin-bottom: 24px;
+}
+
+.card__btns {
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
