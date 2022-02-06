@@ -42,6 +42,10 @@ a, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+.works__card {
+  max-width: 328px;
+}
+
 .card__tags {
   gap: 8px;
   place-self: flex-start;
@@ -71,9 +75,12 @@ a, a:visited, a:hover, a:active {
   line-height: 20px;
   color: #828282;
   margin-bottom: 24px;
+  max-width: 292px;
+  place-self: flex-start;
 }
 
 .card__btns {
   gap: 16px;
   margin-bottom: 16px;
+  place-self: flex-start;
 }
