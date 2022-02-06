@@ -84,3 +84,86 @@ a, a:visited, a:hover, a:active {
   margin-bottom: 16px;
   place-self: flex-start;
 }
+
+.card__img {
+  border-radius: 12px;
+  max-height: 100%;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intro__section {
+  max-width: 1046px;
+  width: auto;
+  display: inline-block;
+}
+
+.intro__card {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  gap: 32px;
+}
+
+.info__details {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card__photo {
+  max-height: 100%;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+
+.card__info {
+  gap: 40px;
+}
+
+.details__name {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4F4F4F;
+}
+
+.details__position {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.details__contacts {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4F4F4F;
+}
+
+.intro__bio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  max-width: 658px;
+}
+
+.contacts__item {
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

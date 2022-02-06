@@ -43,3 +43,10 @@
     place-self: flex-start;
 }
 
+.card__img {
+    border-radius: 12px;
+    max-height: 100%;
+    width: 300px;
+    object-fit: cover;
+}
+

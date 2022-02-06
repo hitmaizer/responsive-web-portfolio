@@ -1,0 +1,68 @@
+.intro__section {
+    max-width: 1046px;
+    width: auto;
+    display: inline-block;
+}
+
+.intro__card {
+    justify-content: center;
+    width: auto;
+    gap: 32px;
+}
+
+.info__details {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card__photo {
+    max-height: 100%;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card__info {
+    gap: 40px;
+}
+
+.details__name {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: $darkGray;
+}
+
+.details__position {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $lightGray;
+}
+
+.details__contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $darkGray;
+}
+
+.intro__bio {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $lightGray;
+    max-width: 658px;
+}
+
+.contacts__item {
+    gap: 16px;
+    align-items: center;
+    
+}
