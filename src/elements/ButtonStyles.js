@@ -41,5 +41,14 @@ export default styled.button`
   
   `}
 
+  ${(props) => props.filter && css `
+    border: 2px solid ${props.theme.colors.darkGray};
+    background: transparent;
+    color: ${props.theme.colors.darkGray};
+    &:hover {
+      transform: translateY(0%);
+    }
+  `}
+
 
 `;
