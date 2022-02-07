@@ -2,7 +2,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { Twitter, Linkedin, Dribbble, Github } from '@styled-icons/boxicons-logos';
-import { Sun } from '@styled-icons/boxicons-regular/Sun';
+import { Sun, Moon } from '@styled-icons/boxicons-regular';
 import PropTypes from 'prop-types';
 import Card from '../elements/CardStyles';
 
@@ -42,10 +42,11 @@ export default function Socials(props) {
             <div className="toggle__container">
                 <div className="toggle">
                     <div className="toggle__btn" >
-                        <Sun size="24px" className="btn__icon" onClick={props.clickHandler} />
+                        {props.darkMode === "light" ? <Sun size="24px" className="btn__icon" onClick={props.clickHandler} /> : <Moon size="24px" className="btn__icon" onClick={props.clickHandler} /> }
+                        
                     </div>
                 </div>
-                    <p className="toggle__text">{props.darkMode}</p>
+                    <p className="toggle__text">{props.darkMode === "light" ? "Enable Dark Mode" : "Enable Light Mode"}</p>
             </div>
             </div>
         </Card>
