@@ -1,8 +1,6 @@
 import React from 'react';
-import Card from "../elements/CardStyles"
-import { StarOutline } from '@styled-icons/material';
-import { Star } from '@styled-icons/material';
-import { StarHalf } from '@styled-icons/material';
+import { StarOutline, Star, StarHalf } from '@styled-icons/material';
+import Card from "../elements/CardStyles";
 
 export default function Skills() {
     return (

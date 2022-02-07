@@ -1,7 +1,6 @@
 import React from 'react';
-import Card from "../elements/CardStyles"
-import { Mail } from '@styled-icons/material';
-import { Phone } from '@styled-icons/material';
+import { Mail, Phone } from '@styled-icons/material';
+import Card from "../elements/CardStyles";
 
 export default function Intro(props) {
     return (
