@@ -1,10 +1,18 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { Twitter, Linkedin, Dribbble, Github } from '@styled-icons/boxicons-logos';
 import { Sun } from '@styled-icons/boxicons-regular/Sun';
+import PropTypes from 'prop-types';
 import Card from '../elements/CardStyles';
 
 
-export default function Socials() {
+export default function Socials(props) {
+    
+    Socials.defaultProps = {
+        clickHandler: PropTypes.func
+    }
+
     return (
         <Card>
             <div className="socials__card">
@@ -34,7 +42,7 @@ export default function Socials() {
             <div className="toggle__container">
                 <div className="toggle">
                     <div className="toggle__btn" >
-                        <Sun size="24px" className="btn__icon" />
+                        <Sun size="24px" className="btn__icon" onClick={props.clickHandler} />
                     </div>
                 </div>
                     <p className="toggle__text">Light</p>
