@@ -58,6 +58,7 @@ a, a:visited, a:hover, a:active {
 .card__tags {
   gap: 8px;
   place-self: flex-start;
+  margin-top: 16px;
 }
 
 .card__tags--item {
@@ -73,6 +74,7 @@ a, a:visited, a:hover, a:active {
   font-size: 24px;
   line-height: 29px;
   place-self: flex-start;
+  margin-top: 8px;
 }
 
 .card__description {
@@ -83,6 +85,7 @@ a, a:visited, a:hover, a:active {
   margin-bottom: 24px;
   max-width: 292px;
   place-self: flex-start;
+  margin-top: 16px;
 }
 
 .card__btns {
@@ -226,6 +229,7 @@ a, a:visited, a:hover, a:active {
 
 .certificate__item {
   gap: 24px;
+  padding: 16px;
 }
 
 .certificate__img {
@@ -326,7 +330,7 @@ a, a:visited, a:hover, a:active {
 
 .filter__card {
   display: inline-block;
-  padding: 16px;
+  padding: 0;
 }
 
 .filter__title {
@@ -435,32 +439,6 @@ a, a:visited, a:hover, a:active {
   gap: 16px;
   margin-top: 16px;
   padding: 24px;
-}
-
-.toggle {
-  height: 50px;
-  border-radius: 30px;
-  width: 90px;
-}
-
-.toggle .toggle__btn {
-  position: absolute;
-  top: 30%;
-  left: 38%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.btn__icon {
-  position: absolute;
-  top: 20%;
-  left: 48%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
 .page__grid {
