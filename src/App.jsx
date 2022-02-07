@@ -15,6 +15,7 @@ import GlobalStyles from './theme/GlobalStyles';
 export default function App() {
 
     const [darkMode, setDarkMode] = React.useState("light")
+    const [filter, setFilter] = React.useState(0)
 
     function themeToggler() {
         const toggle = document.querySelector(".toggle")
@@ -23,6 +24,7 @@ export default function App() {
 
     }
 
+    console.log(filter)
 
     return (
         <Router>
@@ -52,10 +54,10 @@ export default function App() {
                                 <Certificates />
                             </div>
                             <div className="filter__section">
-                                <Filter />
+                                <Filter stateChanger={setFilter} />
                             </div>
                             <div className="works__section">
-                                <Works />
+                                <Works state={filter}/>
                             </div>
                         </div>
                 </ThemeProvider>
