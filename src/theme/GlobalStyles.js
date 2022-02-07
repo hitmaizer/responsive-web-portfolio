@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { BackgroundColor } from 'styled-icons/foundation';
 
 export default createGlobalStyle`
     body {
@@ -31,15 +32,42 @@ export default createGlobalStyle`
     }
 
     .toggle {
-        background-color: ${(props) => props.theme.subText};
+        height: 50px;
+        border-radius: 30px;
+        width: 90px;
+        background-color: ${(props) => props.theme.subText}};
+        transition: all 0.3s ease;
 
         .toggle__btn {
             background-color: ${(props) => props.theme.cardBg};
+            position: absolute;
+            top: 30%;
+            left: 36%;
+            transform: translateX(-50%);
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .active {
+            background-color: #60A5FA;
+
+            .toggle__btn {
+                left: 47%;
+                transition: all 0.3s ease;
+            }
+    
         }
     }
 
     .btn__icon {
         color: ${(props) => props.theme.subText};
+        position: absolute;
+        top: 20%;
+        left: 48%;
+        transform: translateX(-50%);
     }
 
     .skills__title {
@@ -103,7 +131,7 @@ export default createGlobalStyle`
     }
 
     .card__title {
-        color: ${(props) => props.theme.cardTitle2};
+        color: ${(props) => props.theme.cardTitle1};
     }
 
     .card__description {
