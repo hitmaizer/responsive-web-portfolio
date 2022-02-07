@@ -1,0 +1,36 @@
+.toggle__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.toggle {
+    height: 50px;
+    background-color: $lightGray;
+    border-radius: 30px;
+    width: 90px;
+
+    .toggle__btn {
+        position: absolute;
+        top: 10%;
+        left: 34%;
+        transform: translateX(-50%);
+        height: 40px;
+        width: 40px;
+        background-color: $offWhiteBg;
+        border-radius: 50%;
+        cursor: pointer;
+
+    }
+}
+
+.btn__icon {
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    transform: translateX(-50%);
+    color: $lightGray;
+}

@@ -409,6 +409,7 @@ a, a:visited, a:hover, a:active {
   font-size: 18px;
   line-height: 22px;
   color: #4F4F4F;
+  margin-bottom: 16px;
 }
 
 .filter__btns {
@@ -459,4 +460,83 @@ a, a:visited, a:hover, a:active {
   max-width: 492px;
   margin-top: 48px;
   margin-bottom: 48px;
+}
+
+.socials__icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+}
+
+.socials__title {
+  margin-bottom: 16px;
+  width: 100%;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.linkedin:hover, .linkedin a {
+  color: #0e76a8;
+}
+
+.twitter:hover, .twitter a {
+  color: #1DA1F2;
+}
+
+.github:hover, .github a {
+  color: #171515;
+}
+
+.dribbble:hover, .dribbble a {
+  color: #ea4c89;
+}
+
+.toggle__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.toggle {
+  height: 50px;
+  background-color: #828282;
+  border-radius: 30px;
+  width: 90px;
+}
+
+.toggle .toggle__btn {
+  position: absolute;
+  top: 10%;
+  left: 34%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 40px;
+  width: 40px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn__icon {
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #828282;
 }

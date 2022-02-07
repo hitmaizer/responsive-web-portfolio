@@ -1,0 +1,40 @@
+.socials__icons {
+    justify-content: center;
+    gap: 8px;
+}
+
+.socials__title{
+    margin-bottom: 16px;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: $darkerGray;
+}
+
+.linkedin {
+    &:hover, a {
+        color:#0e76a8;
+    }
+}
+
+.twitter {
+    &:hover, a {
+        color: #1DA1F2;
+    }
+}
+
+.github {
+    &:hover, a {
+        color: #171515;
+    }
+}
+
+.dribbble {
+    &:hover, a {
+        color: #ea4c89;
+    }
+}
