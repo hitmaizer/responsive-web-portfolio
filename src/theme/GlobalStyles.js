@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { BackgroundColor } from 'styled-icons/foundation';
+
 
 export default createGlobalStyle`
     body {
