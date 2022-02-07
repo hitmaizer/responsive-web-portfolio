@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+.page__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -26,52 +33,3 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
   }
 
-.page__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(12, auto);
-    gap: 40px;
-    max-width: 1440px;
-}
-
-.intro__section {
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-}
-
-.socials__section {
-    grid-column: 3 / 3;
-    grid-row: 1 / 2;
-}
-
-.skills__section {
-    grid-column: 1 / 2;
-    grid-row: 3 / 5;
-}
-
-.portfolio__section {
-    grid-column: 2 / 3;
-    grid-row: 3 / 8;
-}
-
-.hobbies__section {
-    grid-column: 1 / 1;
-    grid-row: 5 / 9;
-}
-
-.certificates__section {
-    grid-column: 2 / 3;
-    grid-row: 6 / 9;
-}
-
-.filter__section{
-    grid-column: 1 / 3;
-    grid-row: 10 / 10;
-}
-
-.works__section {
-    grid-column: 1 / 3;
-    grid-row: 11 / 12;
-    
-    
-}
