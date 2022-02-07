@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export default styled.button`
   border-radius: 8px;
-  font-family: ${(props) => props.theme.fonts.montserrat};
+  font-family: ${(props) => props.theme.font};
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -16,35 +16,36 @@ export default styled.button`
   
   &:hover {
       transform: translateY(-3%);
+
   }
 
   ${(props) => props.primary && css `
     border: none;
-    color: ${props.theme.colors.whiteCardBg};
-    background-color: ${props.theme.colors.primaryBlue};
+    color: ${props.theme.btnText};
+    background-color: ${props.theme.primaryBlue};
     &:hover {
-        background-color: ${props.theme.colors.darkenBlue};
+        background-color: ${props.theme.darkenBlue};
     }
 
   `}
 
   ${(props) => props.outline && css `
-    border: 2px solid ${props.theme.colors.primaryBlue};
+    border: 2px solid ${props.theme.primaryBlue};
     background: transparent;
-    color: ${props.theme.colors.primaryBlue};
+    color: ${props.theme.primaryBlue};
     
     &:hover {
-        background: ${props.theme.colors.darkenBlue};
-        color: ${props.theme.colors.whiteCardBg};
-        border: 2px solid ${props.theme.colors.darkenBlue};
+        background: ${props.theme.darkenBlue};
+        color: ${props.theme.whiteCardBg};
+        border: 2px solid ${props.theme.darkenBlue};
     }
   
   `}
 
-  ${(props) => props.filter && css `
-    border: 2px solid ${props.theme.colors.darkGray};
+  ${(props) => props.filterBtn && css `
+    border: 2px solid ${props.cardTitle1};
     background: transparent;
-    color: ${props.theme.colors.darkGray};
+    color: ${props.theme.cardTitle1};
     &:hover {
       transform: translateY(0%);
     }
