@@ -8,29 +8,4 @@
     padding: 24px;
 }
 
-.toggle {
-    height: 50px;
-    
-    border-radius: 30px;
-    width: 90px;
 
-    .toggle__btn {
-        position: absolute;
-        top: 30%;
-        left: 38%;
-        transform: translateX(-50%);
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        cursor: pointer;
-
-    }
-}
-
-.btn__icon {
-    position: absolute;
-    top: 20%;
-    left: 48%;
-    transform: translateX(-50%);
-    
-}
