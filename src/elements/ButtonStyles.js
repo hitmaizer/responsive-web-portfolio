@@ -36,7 +36,7 @@ export default styled.button`
     
     &:hover {
         background: ${props.theme.darkenBlue};
-        color: ${props.theme.whiteCardBg};
+        color: ${props.theme.btnText};
         border: 2px solid ${props.theme.darkenBlue};
     }
   
