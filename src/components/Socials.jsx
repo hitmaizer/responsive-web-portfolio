@@ -45,7 +45,7 @@ export default function Socials(props) {
                         <Sun size="24px" className="btn__icon" onClick={props.clickHandler} />
                     </div>
                 </div>
-                    <p className="toggle__text">Light</p>
+                    <p className="toggle__text">{props.darkMode}</p>
             </div>
             </div>
         </Card>
