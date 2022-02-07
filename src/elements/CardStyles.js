@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export default styled.div`
     gap: 16px;
-    padding: 16px;
+    padding: 24px;
     background-color: ${(props) => props.theme.colors.whiteCardBg};
     font-family: ${(props) => props.theme.fonts.montserrat};
     
