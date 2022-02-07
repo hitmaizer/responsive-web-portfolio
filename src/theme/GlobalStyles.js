@@ -31,19 +31,29 @@ export default createGlobalStyle`
         color: ${(props) => props.theme.cardTitle};
     }
 
+    .toggle__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+    }
+
     .toggle {
+        position: relative;
         height: 50px;
-        border-radius: 30px;
         width: 90px;
+        border-radius: 30px;
         background-color: ${(props) => props.theme.subText}};
         transition: all 0.3s ease;
 
         .toggle__btn {
             background-color: ${(props) => props.theme.cardBg};
             position: absolute;
-            top: 30%;
-            left: 36%;
-            transform: translateX(-50%);
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -50%);
             height: 40px;
             width: 40px;
             border-radius: 50%;
@@ -55,7 +65,9 @@ export default createGlobalStyle`
             background-color: #60A5FA;
 
             .toggle__btn {
-                left: 47%;
+                left: 70%;
+                top: 50%;
+                transform: translate(-50%, -50%);
                 transition: all 0.3s ease;
             }
     
@@ -65,9 +77,9 @@ export default createGlobalStyle`
     .btn__icon {
         color: ${(props) => props.theme.subText};
         position: absolute;
-        top: 20%;
-        left: 48%;
-        transform: translateX(-50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .skills__title {
