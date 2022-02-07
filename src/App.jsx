@@ -17,9 +17,11 @@ export default function App() {
     const [darkMode, setDarkMode] = React.useState("light")
 
     function themeToggler() {
+        const toggle = document.querySelector(".toggle")
+        toggle.classList.toggle("active")
         return darkMode === "light" ? setDarkMode("dark") : setDarkMode("light")
-    }
 
+    }
 
 
     return (
@@ -32,7 +34,10 @@ export default function App() {
                                 <Intro />
                             </div>
                             <div className="socials__section">
-                                <Socials clickHandler={() => themeToggler()} />
+                                <Socials 
+                                clickHandler={() => themeToggler()}
+                                darkMode={darkMode} 
+                                />
                             </div>
                             <div className="skills__section">
                                 <Skills />
