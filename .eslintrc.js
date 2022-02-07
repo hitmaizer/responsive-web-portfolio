@@ -21,8 +21,20 @@ module.exports = {
     ],
     "rules": {
         "no-unused-vars": "warn",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-        
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "no-unused-expressions": ["error", { "allowTernary": true }],
+        'jsx-a11y/no-static-element-interactions': [
+            'error',
+            {
+              handlers: [
+                'onMouseDown',
+                'onMouseUp',
+                'onKeyPress',
+                'onKeyDown',
+                'onKeyUp',
+              ],
+            },
+          ],
     }
 
 }
