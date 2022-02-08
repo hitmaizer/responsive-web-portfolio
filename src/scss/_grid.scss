@@ -1,6 +1,6 @@
 .page__grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, auto);
     // grid-template-rows: minmax(150px, auto);
     gap: 32px;
     max-width: 1440px;
@@ -42,7 +42,7 @@
 }
 
 .works__section {
-    grid-column: 0 / 4;
+    grid-column: 1 / 4;
     grid-row: 11 / 12;
     
     
