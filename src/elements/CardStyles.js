@@ -6,7 +6,6 @@ export default styled.div`
     padding: 24px;
     width: auto;
     border-radius: 12px;
-    cursor: pointer;
     transition: transform 0.2s ease;
     background-color: ${(props) => props.theme.cardBg};
     
