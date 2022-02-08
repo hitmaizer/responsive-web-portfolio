@@ -9,8 +9,7 @@ export default function WorksCard(props) {
     
 
     return (
-        <div className="works__card">
-            <CardStyled >
+            <CardStyled className="card__container">
                 <img src={`images/works/${props.image}`} alt="" className="card__img" />
                 <div className="card__tags flex-row">
                     <p className="card__tags--item">#{props.tags[0]}</p>
@@ -29,7 +28,7 @@ export default function WorksCard(props) {
                     
                 </div>
             </CardStyled>
-        </div>
+        
 
 
     )
