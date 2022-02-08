@@ -11,7 +11,7 @@ export default function WorksCard(props) {
     return (
         <div className="works__card">
             <CardStyled >
-                <img src={`http://localhost:3002/images/works/${props.image}`} alt="" className="card__img" />
+                <img src={`images/works/${props.image}`} alt="" className="card__img" />
                 <div className="card__tags flex-row">
                     <p className="card__tags--item">#{props.tags[0]}</p>
                     <p className="card__tags--item">#{props.tags[1]}</p>
