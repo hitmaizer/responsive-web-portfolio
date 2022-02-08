@@ -4,7 +4,8 @@ import styled from 'styled-components';
 export default styled.div`
     gap: 16px;
     padding: 24px;
-    width: auto;
+    width: 100%;
+    height: 100%;
     border-radius: 12px;
     transition: transform 0.2s ease;
     background-color: ${(props) => props.theme.cardBg};
