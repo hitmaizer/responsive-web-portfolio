@@ -15,15 +15,19 @@ import GlobalStyles from './theme/GlobalStyles';
 
 export default function App() {
 
-    const [darkMode, setDarkMode] = React.useState("light")
+    const [darkMode, setDarkMode] = React.useState(JSON.parse(localStorage.getItem("mode")) || [])
     const [filter, setFilter] = React.useState(0)
 
-    
+    React.useEffect(() => {
+        localStorage.setItem("mode", JSON.stringify(darkMode))
+    }, [darkMode])
+
 
     function themeToggler() {
         const toggle = document.querySelector(".toggle")
         toggle.classList.toggle("active")
-        return darkMode === "light" ? setDarkMode("dark") : setDarkMode("light")
+        darkMode === "light" ? setDarkMode("dark") : setDarkMode("light")
+        
 
     }
 
