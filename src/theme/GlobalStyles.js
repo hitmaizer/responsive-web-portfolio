@@ -63,6 +63,7 @@ export default createGlobalStyle`
 
         .active {
             background-color: #60A5FA;
+            transition: all 0.9s ease;
 
             .toggle__btn {
                 left: 70%;
@@ -148,6 +149,13 @@ export default createGlobalStyle`
 
     .card__description {
         color: ${(props) => props.theme.subText};
+    }
+
+    .selected {
+        background-color: ${(props) => props.theme.primaryBlue};
+        border: 2px solid ${(props) => props.theme.primaryBlue};
+        color: ${(props) => props.theme.btnText};
+        
     }
 
 `

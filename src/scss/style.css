@@ -499,9 +499,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .works__section {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1 / 4;
+  grid-column: 0 / 4;
   -ms-grid-row: 11;
   -ms-grid-row-span: 1;
   grid-row: 11 / 12;
