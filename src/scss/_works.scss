@@ -1,13 +1,6 @@
-.works__section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.works__wrapper {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.works__card {
-    gap: 32px;
-    max-height: 500px;
-    max-width: 500px;
-    height: 500px;
-    width: 100%;
-}
