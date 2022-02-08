@@ -42,7 +42,7 @@ export default function Socials(props) {
             <div className="toggle__container">
                 <div className="toggle">
                     <div className="toggle__btn" >
-                        {props.darkMode === "light" ? <Sun size="24px" className="btn__icon" onClick={props.clickHandler} /> : <Moon size="24px" className="btn__icon" onClick={props.clickHandler} /> }
+                        {props.darkMode === "light" ? <Moon size="24px" className="btn__icon" onClick={props.clickHandler} /> : <Sun size="24px" className="btn__icon" onClick={props.clickHandler} /> }
                         
                     </div>
                 </div>
