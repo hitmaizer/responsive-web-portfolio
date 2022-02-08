@@ -19,12 +19,25 @@ export default function WorksCard(props) {
                 <h1 className="card__title">{props.title}</h1>
                 <p className="card__description">{props.description}</p>
                 <div className="card__btns flex-row">
+                    {props.demo && 
                     <Btn primary>
                         <a className="card__link" href={props.demo} target="_blank" rel="noreferrer">Demo</a>
                     </Btn>
+                    }
+                    
+                    {props. code && 
                     <Btn outline>
                         <a className="card__link" href={props.code} target="_blank" rel="noreferrer">Code</a>
                     </Btn>
+                    }
+
+                    {props.link && 
+                    <Btn primary>
+                        <a className="card__link" href={props.link} target="_blank" rel="noreferrer">See More</a>
+                    </Btn>
+                    }
+                    
+                    
                     
                 </div>
             </CardStyled>
