@@ -57,6 +57,7 @@ export default function Works(props) {
             description={work.description}
             demo={work.demo}
             code={work.code}
+            link={work.link}
         />
     ))
    
