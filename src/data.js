@@ -2,13 +2,13 @@ export default {
     "works": [
         {
             "id": "1",
-            "title": "Page 404",
-            "img": "page404.png",
+            "title": "Interior Consultant",
+            "img": "interior.png",
             "tags": ["responsive", "HTML", "CSS"],
             "category": "responsive",
-            "description": "A simple page 404, as my submission for the devChallenges.io #1",
-            "demo": "https://page-404-one.vercel.app/",
-            "code": "https://github.com/hitmaizer/responsive-web-404",
+            "description": "A interior consultant frontpage as a part of the devChallenges Responsive Web Developer path",
+            "demo": "https://interior-consultant-challenge-ktlfl7plu-hitmaizer.vercel.app/",
+            "code": "https://github.com/hitmaizer/responsive-web-interior.consultant",
         },
         
         {
@@ -73,8 +73,9 @@ export default {
             "tags": ["UI Design", "Figma", "UI/UX"],
             "category": "ui",
             "description": "Car Dashboard UI design as part of the DailyUI Challenge",
-            "demo": "https://dribbble.com/shots/15440795-Car-Interface",
+            "demo": "",
             "code": "",
+            "link": "https://dribbble.com/shots/15440795-Car-Interface",
         },
         
         {
@@ -86,6 +87,7 @@ export default {
             "description": "UI/UX Design for a social network App concept",
             "demo": "",
             "code": "",
+            "link": "https://tinyurl.com/2p82jsp3",
         },
         
         {
@@ -97,6 +99,43 @@ export default {
             "description": "A job listing app, designed on Figma ",
             "demo": "",
             "code": "",
+            "link": "https://dribbble.com/shots/15583721-Job-Listing",
+        },
+        
+        {
+            "id": "10",
+            "title": "Business Card 2.0",
+            "img": "arapp.jpeg",
+            "tags": ["AR", "Unity", "C#"],
+            "category": "other",
+            "description": "Augmented Reality Android app. A fully interactive digital portfolio, developed as a university project.",
+            "demo": "",
+            "code": "",
+            "link": "https://tinyurl.com/58km727h",
+        },
+        
+        {
+            "id": "11",
+            "title": "Controller Generations",
+            "img": "motiongraphics.png",
+            "tags": ["Motion", "Graphics", "Adobe AE"],
+            "category": "other",
+            "description": "A motion graphics project that shows the different generations of console controllers.",
+            "demo": "",
+            "code": "",
+            "link":  "https://tinyurl.com/bdh7htfv",
+        },
+        
+        {
+            "id": "12",
+            "title": "e-Sports Article",
+            "img": "article.png",
+            "tags": ["Article", "Adobe", "InDesign"],
+            "category": "other",
+            "description": "An article about e-Sports, how it started, the competitive scene, the growth and future.",
+            "demo": "",
+            "code": "",
+            "link":  "https://tinyurl.com/yckpwfsh",
         },
     ]
 }
