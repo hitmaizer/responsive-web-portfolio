@@ -25,7 +25,7 @@ export default function Certificates() {
                     </div>
                 </div>
                 <div className="certificate__item flex-row">
-                    <img src="images/devChallenges.jpg" alt="" className="certificate__img" />
+                    <img src="images/devchallenges.jpg" alt="" className="certificate__img" />
                     <div className="certificate__info flex-col">
                         <p className="certificate__date">Feb 2022</p>
                         <p className="certificate__title">Responsive Web Developer</p>
