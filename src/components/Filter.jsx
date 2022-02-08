@@ -12,10 +12,10 @@ export default function Filter(props) {
             <div className="filter__card flex-col">
                 <h3 className="filter__title">Filter projects by category</h3>
                 <div className="filter__btns flex-row">
-                    <Btn filterBtn onClick={() => props.stateChanger(1)}>Responsive</Btn> 
-                    <Btn filterBtn onClick={() => props.stateChanger(2)}>React</Btn>
-                    <Btn filterBtn onClick={() => props.stateChanger(3)}>UI Design</Btn>
-                    <Btn filterBtn onClick={() => props.stateChanger(4)}>Other</Btn>
+                    <Btn filterBtn className ="filter" id="responsive" onClick={() => props.stateChanger(1, "responsive")}>Responsive</Btn> 
+                    <Btn filterBtn className ="filter" id="react" onClick={() => props.stateChanger(2, "react")}>React</Btn>
+                    <Btn filterBtn className ="filter" id="ui" onClick={() => props.stateChanger(3, "ui")}>UI Design</Btn>
+                    <Btn filterBtn className ="filter" id="other" onClick={() => props.stateChanger(4, "other")}>Other</Btn>
                 </div>
             </div>
         </Card>
