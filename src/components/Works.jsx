@@ -43,7 +43,7 @@ export default function Works(props) {
                 const randomNumber = Math.floor(Math.random() * worksArray.length)
                 const randomWork = worksArray[randomNumber]
                 usedWorks.push(randomWork)
-            }    
+            }        
         }
 
         setWorksData(usedWorks)
@@ -66,14 +66,9 @@ export default function Works(props) {
    
     return (
         <div className="worksection__wrapper">
-            
                 <div className="works__card flex-row">
                     {worksElements}
-                </div>
-            
-
-        
+                </div>        
         </div>
-        
     )
 }

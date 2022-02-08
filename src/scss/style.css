@@ -329,6 +329,8 @@ a, a:visited, a:hover, a:active {
   gap: 32px;
   max-height: 500px;
   max-width: 500px;
+  height: 500px;
+  width: 100%;
 }
 
 .filter__card {
@@ -451,8 +453,8 @@ a, a:visited, a:hover, a:active {
   -ms-grid-column-span: 1;
   grid-column: 3 / 4;
   -ms-grid-row: 1;
-  -ms-grid-row-span: 4;
-  grid-row: 1 / 5;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
 }
 
 .skills__section {
