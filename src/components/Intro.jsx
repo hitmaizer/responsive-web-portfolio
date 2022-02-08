@@ -2,7 +2,7 @@ import React from 'react';
 import { Mail, Phone } from '@styled-icons/material';
 import Card from "../elements/CardStyles";
 
-export default function Intro(props) {
+export default function Intro() {
     return (
         <Card>
             <div className="intro__card flex-row">
