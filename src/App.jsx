@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -17,6 +18,8 @@ export default function App() {
     const [darkMode, setDarkMode] = React.useState("light")
     const [filter, setFilter] = React.useState(0)
 
+    
+
     function themeToggler() {
         const toggle = document.querySelector(".toggle")
         toggle.classList.toggle("active")
@@ -24,7 +27,25 @@ export default function App() {
 
     }
 
-    console.log(filter)
+    function filterSelector(state, id) {
+        const selectedElement = document.getElementById(id)
+        const groupElements = document.querySelectorAll('.selected')
+        
+        
+        if (selectedElement.classList.contains('selected')) {
+            selectedElement.classList.remove('selected')
+        } else {
+            groupElements.forEach(e => {
+                if(e.classList.contains('selected')) {
+                    e.classList.remove('selected')
+                }
+            })
+            selectedElement.classList.add('selected')
+        }
+        
+        
+        setFilter(state)
+    }
 
     return (
         <Router>
@@ -54,7 +75,7 @@ export default function App() {
                                 <Certificates />
                             </div>
                             <div className="filter__section">
-                                <Filter stateChanger={setFilter} />
+                                <Filter stateChanger={(state, id) => filterSelector(state, id)} />
                             </div>
                             <div className="works__section">
                                 <Works state={filter}/>
