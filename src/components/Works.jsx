@@ -13,7 +13,7 @@ export default function Works(props) {
     
    React.useEffect(() => {
         const worksArray = Data.works
-        const usedWorks = []
+        let usedWorks = []
         if (currentState === 1) {
             worksArray.forEach(work => {
                 if (work.category === "responsive") {
@@ -39,11 +39,7 @@ export default function Works(props) {
                 }
             })
         } else if (currentState === 0) { 
-            for (let i = 0; i < 4; i++) {
-                const randomNumber = Math.floor(Math.random() * worksArray.length)
-                const randomWork = worksArray[randomNumber]
-                usedWorks.push(randomWork)
-            }        
+            usedWorks = worksArray
         }
 
         setWorksData(usedWorks)
@@ -65,10 +61,9 @@ export default function Works(props) {
     ))
    
     return (
-        <div className="worksection__wrapper">
-                <div className="works__card flex-row">
-                    {worksElements}
-                </div>        
-        </div>
+        <div className="works__wrapper">
+            {worksElements}
+        </div>        
+        
     )
 }
