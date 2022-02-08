@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    width: calc(100vw - 19px);
+    background-color: #F2F2F2;
 }
 
 .flex-row {
@@ -20,12 +21,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.page__wrapper {
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: #F2F2F2;
 }
 
 a, a:visited, a:hover, a:active {
