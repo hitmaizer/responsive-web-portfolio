@@ -29,8 +29,16 @@ export default function Works(props) {
     ))
    
     return (
-        <div className="works__card flex-row">
-            {worksElements}
+        <div className="works__wrapper">
+
+        {currentState === 0 &&
+            <div className="works__card flex-row">
+                {worksElements}
+            </div>
+        }
+
+        
         </div>
+        
     )
 }
