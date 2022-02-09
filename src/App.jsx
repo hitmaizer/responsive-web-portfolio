@@ -15,18 +15,28 @@ import GlobalStyles from './theme/GlobalStyles';
 
 export default function App() {
 
-    const [darkMode, setDarkMode] = React.useState(JSON.parse(localStorage.getItem("mode")) || [])
     const [filter, setFilter] = React.useState(0)
-
-    React.useEffect(() => {
-        localStorage.setItem("mode", JSON.stringify(darkMode))
-    }, [darkMode])
-
+    
+    function useLocalStorageState(key, initialValue) {
+        const [value, setValue] = React.useState(() => {
+            const persistedValue = localStorage.getItem(key)
+            return persistedValue !== null ? persistedValue : initialValue
+        })
+        
+        React.useEffect(() => {
+            localStorage.setItem(key, value)
+        }, [key, value])
+        
+        return [value, setValue]
+    }
+    
+    const [mode, setMode] = useLocalStorageState("mode", "light")
+   
 
     function themeToggler() {
         const toggle = document.querySelector(".toggle")
         toggle.classList.toggle("active")
-        darkMode === "light" ? setDarkMode("dark") : setDarkMode("light")
+        mode === "light" ? setMode("dark") : setMode("light")
         
 
     }
@@ -54,26 +64,26 @@ export default function App() {
     return (
         <Router>
             <div className="page__wrapper">
-                <ThemeProvider theme={darkMode === "light" ? Theme.theme.colors.lightTheme : Theme.theme.colors.darkTheme}>
+                <ThemeProvider theme={mode === "light" ? Theme.theme.colors.lightTheme : Theme.theme.colors.darkTheme}>
                     <GlobalStyles />
                         <div className="page__grid">
                             <div className="intro__section">
-                                <Intro darkMode={darkMode} />
+                                <Intro darkMode={mode} />
                             </div>
                             <div className="socials__section">
                                 <Socials 
                                 clickHandler={() => themeToggler()}
-                                darkMode={darkMode} 
+                                darkMode={mode} 
                                 />
                             </div>
                             <div className="skills__section">
                                 <Skills />
                             </div>
                             <div className="portfolio__section">
-                                <Portfolio darkMode={darkMode} />
+                                <Portfolio darkMode={mode} />
                             </div>
                             <div className="hobbies__section">
-                                <Hobbies />
+                                <Hobbies darkMode={mode} />
                             </div>
                             <div className="certificates__section">
                                 <Certificates />
