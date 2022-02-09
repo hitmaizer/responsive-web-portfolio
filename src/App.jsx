@@ -58,7 +58,7 @@ export default function App() {
                     <GlobalStyles />
                         <div className="page__grid">
                             <div className="intro__section">
-                                <Intro />
+                                <Intro darkMode={darkMode} />
                             </div>
                             <div className="socials__section">
                                 <Socials 
