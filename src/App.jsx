@@ -70,7 +70,7 @@ export default function App() {
                                 <Skills />
                             </div>
                             <div className="portfolio__section">
-                                <Portfolio />
+                                <Portfolio darkMode={darkMode} />
                             </div>
                             <div className="hobbies__section">
                                 <Hobbies />
