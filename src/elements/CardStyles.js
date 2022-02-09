@@ -9,6 +9,9 @@ export default styled.div`
     border-radius: 12px;
     background-color: ${(props) => props.theme.cardBg};
     
+    @media only screen and (max-width: 576px) {
+        padding: 16px;
+    }
 
     
 
