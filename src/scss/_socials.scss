@@ -1,3 +1,12 @@
+.socials__wrapper {
+    transition: transform 0.2s ease;
+    
+    &:hover {
+        box-shadow: $dropShadow;
+        transform: translateY(-5%);
+    }
+}
+
 .socials__icons {
     justify-content: center;
     gap: 8px;
