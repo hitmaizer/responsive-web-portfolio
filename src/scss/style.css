@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Oxygen:wght@400;700&family=Prompt:wght@200;500;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -166,9 +166,8 @@ a, a:visited, a:hover, a:active {
 }
 
 .details__position {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
   font-size: 18px;
   line-height: 22px;
 }
@@ -181,8 +180,9 @@ a, a:visited, a:hover, a:active {
 }
 
 .intro__bio {
+  font-family: "Prompt", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 18px;
   line-height: 22px;
   max-width: 650px;
@@ -227,6 +227,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .item__name {
+  font-family: "Oxygen", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -239,6 +240,10 @@ a, a:visited, a:hover, a:active {
 
 .certificates__card {
   gap: 32px;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .certificates__title {
@@ -274,18 +279,18 @@ a, a:visited, a:hover, a:active {
 }
 
 .certificate__title {
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
 
 .certificate__description {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
   line-height: 20px;
-  max-width: 380px;
+  max-width: 400px;
 }
 
 .hobbies__section {
@@ -299,6 +304,7 @@ a, a:visited, a:hover, a:active {
 
 .hobbie__card {
   justify-items: center;
+  width: 100%;
 }
 
 .hobbies__title {
@@ -312,7 +318,7 @@ a, a:visited, a:hover, a:active {
 
 .hobbie__img {
   max-height: 100%;
-  width: 350px;
+  width: 250px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 12px;
@@ -320,20 +326,22 @@ a, a:visited, a:hover, a:active {
 }
 
 .hobbie__title {
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 8px;
+  place-self: flex-start;
 }
 
 .hobbie__text {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
   line-height: 20px;
   max-width: 350px;
   margin-bottom: 8px;
+  place-self: flex-start;
 }
 
 .works__wrapper {
@@ -350,7 +358,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .filter__title {
-  font-style: normal;
+  font-family: "Oxygen", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -379,11 +387,11 @@ a, a:visited, a:hover, a:active {
 }
 
 .portfolio__title {
-  font-style: normal;
-  font-weight: 500;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
   font-size: 32px;
   line-height: 29px;
-  max-width: 300px;
+  max-width: 370px;
   margin-left: 32px;
 }
 
@@ -398,11 +406,12 @@ a, a:visited, a:hover, a:active {
 }
 
 .portfolio__text {
+  font-family: "Prompt", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 200;
+  font-size: 18px;
   line-height: 20px;
-  max-width: 600px;
+  max-width: 730px;
   margin-top: 32px;
   margin-bottom: 48px;
   margin-left: 32px;
@@ -458,6 +467,10 @@ a, a:visited, a:hover, a:active {
 
 .dribbble:hover, .dribbble a {
   color: #ea4c89;
+}
+
+.toggle__text {
+  font-family: "Oxygen", sans-serif;
 }
 
 .page__grid {
