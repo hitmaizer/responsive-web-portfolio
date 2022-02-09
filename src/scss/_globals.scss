@@ -11,7 +11,7 @@
     background-color: #F2F2F2;
     padding: 16px;
 
-    @include respond-below(md) {
+    @include respond-below(lg) {
       padding: 0;
       width: 100%;
     }

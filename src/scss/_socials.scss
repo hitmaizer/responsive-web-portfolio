@@ -1,5 +1,5 @@
 .socials__section {
-    @include respond-below(md) {
+    @include respond-below(lg) {
       
       display: none;
     }

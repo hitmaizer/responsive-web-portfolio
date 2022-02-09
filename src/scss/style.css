@@ -20,7 +20,7 @@
   padding: 16px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .page__wrapper {
     padding: 0;
     width: 100%;
@@ -169,7 +169,7 @@ a, a:visited, a:hover, a:active {
           justify-content: space-between;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .info__details {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -420,7 +420,7 @@ a, a:visited, a:hover, a:active {
       grid-template-columns: repeat(3, 1fr);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .works__wrapper {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
@@ -428,7 +428,7 @@ a, a:visited, a:hover, a:active {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .filter__section {
     display: none;
   }
@@ -502,7 +502,7 @@ a, a:visited, a:hover, a:active {
   margin-left: 32px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .socials__section {
     display: none;
   }
@@ -574,7 +574,7 @@ a, a:visited, a:hover, a:active {
   max-width: 1440px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .page__grid {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -595,7 +595,7 @@ a, a:visited, a:hover, a:active {
   grid-row: 1 / 2;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .intro__section {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
