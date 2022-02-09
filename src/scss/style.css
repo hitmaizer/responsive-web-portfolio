@@ -145,9 +145,9 @@ a, a:visited, a:hover, a:active {
           justify-content: space-between;
 }
 
-.card__photo {
+.card__avatar {
   max-height: 100%;
-  width: 150px;
+  width: 200px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 12px;
@@ -422,6 +422,10 @@ a, a:visited, a:hover, a:active {
           transform: translateY(-5%);
 }
 
+.socials__card {
+  gap: 16px;
+}
+
 .socials__icons {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -431,6 +435,7 @@ a, a:visited, a:hover, a:active {
 
 .socials__title {
   margin-bottom: 16px;
+  margin-top: 16px;
   width: 100%;
   text-align: center;
   font-style: normal;
