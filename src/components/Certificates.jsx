@@ -18,7 +18,7 @@ export default function Certificates() {
                 <div className="certificate__item flex-row">
                     <img src="images/freeCode.png" alt="" className="certificate__img" />
                     <div className="certificate__info flex-col">
-                        <p className="certificate__date">Feb 2021</p>
+                        <p className="certificate__date">Sep 2020 - Feb 2021</p>
                         <p className="certificate__title">Responsive Web Design</p>
                         <p className="certificate__description">Developer Certification from FreeCodeCamp, 
                         representing approximately 300 hours of coursework.</p>
@@ -27,7 +27,7 @@ export default function Certificates() {
                 <div className="certificate__item flex-row">
                     <img src="images/devchallenges.jpg" alt="" className="certificate__img" />
                     <div className="certificate__info flex-col">
-                        <p className="certificate__date">Feb 2022</p>
+                        <p className="certificate__date">Jan 2022 - Feb 2022</p>
                         <p className="certificate__title">Responsive Web Developer</p>
                         <p className="certificate__description">8 real-life like pratical challenges by devChallenges.io</p>
                     </div>
