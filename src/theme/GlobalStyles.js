@@ -9,6 +9,7 @@ export default createGlobalStyle`
 
     .page__wrapper{
         background-color: ${(props) => props.theme.body};
+        // background: ${(props) => props.theme.gradient};
     }
 
     .details__name {
@@ -16,7 +17,7 @@ export default createGlobalStyle`
     }
 
     .details__position {
-        color: ${(props) => props.theme.subText};
+        color: ${(props) => props.theme.primaryBlue};
     }
 
     .details__contact {
@@ -25,6 +26,14 @@ export default createGlobalStyle`
 
     .intro__bio {
         color: ${(props) => props.theme.subText};
+    }
+
+    .intro__icon {
+        color: ${(props) => props.theme.cardTitle};
+    }
+
+    .mail {
+        color: ${(props) => props.theme.primaryBlue};
     }
 
     .socials__title {
@@ -61,6 +70,10 @@ export default createGlobalStyle`
             transition: all 0.3s ease;
         }
 
+        .toggle__text {
+            color: ${(props) => props.theme.primaryBlue};
+        }
+
         .active {
             background-color: #60A5FA;
             transition: all 0.9s ease;
@@ -92,7 +105,7 @@ export default createGlobalStyle`
     }
 
     .portfolio__category {
-        color: ${(props) => props.theme.offGray};
+        color: ${(props) => props.theme.primaryBlue};
     }
 
     .portfolio__title {
@@ -108,7 +121,7 @@ export default createGlobalStyle`
     }
 
     .hobbie__title {
-        color: ${(props) => props.theme.cardTitle1};
+        color: ${(props) => props.theme.primaryBlue};
     }
 
     .hobbie__text {
@@ -120,15 +133,11 @@ export default createGlobalStyle`
     }
 
     .certificate__title {
-        color: ${(props) => props.theme.cardTitle1};
+        color: ${(props) => props.theme.primaryBlue};
     }
 
     .certificate__date {
         color: ${(props) => props.theme.subText};
-    }
-
-    .certificate__title {
-        color: ${(props) => props.theme.cardTitle1};
     }
 
     .certificate__description {
@@ -155,6 +164,18 @@ export default createGlobalStyle`
         background-color: ${(props) => props.theme.primaryBlue};
         border: 2px solid ${(props) => props.theme.primaryBlue};
         color: ${(props) => props.theme.btnText};
+        
+    }
+
+    .star__icon {
+        color: ${(props) => props.theme.primaryBlue};
+    }
+
+    .important__word {
+        color: ${(props) => props.theme.primaryBlue};
+        b {
+            font-weight: 500;
+        }
         
     }
 
