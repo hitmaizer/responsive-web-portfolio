@@ -19,18 +19,17 @@ export default function Intro({ darkMode }) {
                         </div>
                         <div className="details__contacts">
                             <div className="contacts__item flex-row">
-                                <Mail size="24px" />
+                                <Mail size="24px" className="intro__icon" />
                                 <p className="mail">jose.sousalves@gmail.com</p>
                             </div>
                             <div className="contacts__item flex-row">
-                                <Phone size="24px" />
+                                <Phone size="24px" className="intro__icon" />
                                 <p className="mail">(+351) 91 102 340 5</p>
                             </div>
                         </div>
                     </div>
                     <p className="intro__bio">Self-taught developer, who is willing to learn and
                     create outstanding UI.<br />
-                    <br />
                     On this page you will be able to get to know some of my work a bit better.
                     </p>
 
