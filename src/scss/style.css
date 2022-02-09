@@ -455,6 +455,10 @@ a, a:visited, a:hover, a:active {
   display: inline-block;
 }
 
+.portfolio__card {
+  height: 100%;
+}
+
 .portfolio__category {
   font-style: normal;
   font-weight: 500;
