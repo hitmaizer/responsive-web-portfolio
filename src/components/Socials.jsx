@@ -10,7 +10,7 @@ export default function Socials(props) {
     
 
     return (
-        <Card>
+        <Card className="socials__wrapper">
             <div className="socials__card">
                 <h3 className="socials__title">Follow me on my socials!</h3>
                 <div className="socials__icons flex-row">
