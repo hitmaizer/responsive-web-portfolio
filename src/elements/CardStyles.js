@@ -7,13 +7,8 @@ export default styled.div`
     width: 100%;
     height: 100%;
     border-radius: 12px;
-    transition: transform 0.2s ease;
     background-color: ${(props) => props.theme.cardBg};
     
-    &:hover {
-        box-shadow: ${(props) => props.theme.dropShadow};
-        transform: translateY(-5%);
-    }
 
     
 
