@@ -6,7 +6,7 @@
 }
 
 .filter__title {
-    font-style: normal;
+    font-family: $oxygen;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
@@ -15,5 +15,6 @@
 
 .filter__btns {
     gap: 16px;
+    
 }
 

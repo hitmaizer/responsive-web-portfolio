@@ -4,6 +4,8 @@
 
 .certificates__card {
     gap: 32px;
+    height: 100%;
+    justify-content: center;
 }
 
 .certificates__title {
@@ -39,16 +41,16 @@
 }
 
 .certificate__title {
-    font-style: normal;
-    font-weight: 600;
+    font-family: $prompt;
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
 }
 
 .certificate__description {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-family: $prompt;
+    font-weight: 200;
+    font-size: 18px;
     line-height: 20px;
-    max-width: 380px;
+    max-width: 400px;
 }
