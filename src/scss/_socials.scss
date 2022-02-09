@@ -1,3 +1,10 @@
+.socials__section {
+    @include respond-below(md) {
+      
+      display: none;
+    }
+}
+
 .socials__wrapper {
     transition: transform 0.2s ease;
     

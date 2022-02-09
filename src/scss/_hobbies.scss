@@ -5,6 +5,8 @@
 .hobbies__card {
     gap: 24px;
     place-items: center;
+
+    
 }
 
 .hobbie__card {
@@ -26,7 +28,7 @@
 
 .hobbie__img {
     max-height: 100%;
-    width: 250px;
+    max-width: 250px;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 8px;

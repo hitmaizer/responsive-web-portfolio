@@ -1,4 +1,8 @@
-
+.filter__section {
+    @include respond-below(md) {
+      display: none;
+    }
+}
 
 .filter__card {
     display: inline-block;

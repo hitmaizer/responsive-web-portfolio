@@ -2,5 +2,11 @@
     display: grid;
     gap: 32px;
     grid-template-columns: repeat(3, 1fr);
+
+    @include respond-below(md) {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
 }
 

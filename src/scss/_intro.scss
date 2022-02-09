@@ -13,6 +13,12 @@
 .info__details {
     width: 100%;
     justify-content: space-between;
+    
+    @include respond-below(md) {
+      flex-direction: column;
+      gap: rem(32px);
+      place-items: flex-start;
+    }
 }
 
 .card__avatar {
@@ -20,6 +26,10 @@
     width: 200px;
     object-fit: cover;
     border-radius: 12px;
+
+    @include respond-below(sm) {
+      display: none;
+    }
 }
 
 .card__info {

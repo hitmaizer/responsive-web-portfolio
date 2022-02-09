@@ -10,6 +10,11 @@
     width: calc(100vw - 19px);
     background-color: #F2F2F2;
     padding: 16px;
+
+    @include respond-below(md) {
+      padding: 0;
+      width: 100%;
+    }
 }
 
 .flex-row {

@@ -18,6 +18,10 @@
 .certificate__item {
     gap: 24px;
     padding: 16px;
+
+    @include respond-below(sm) {
+      flex-direction: column;
+    }
 }
 
 .certificate__img {
@@ -31,6 +35,10 @@
 .certificate__info {
     place-items: flex-start;
     gap: 8px;
+
+    @include respond-below(sm) {
+      place-items: center;
+    }
 }
 
 .certificate__date {
@@ -45,6 +53,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+
+    @include respond-below(sm) {
+        text-align: center;
+    }
 }
 
 .certificate__description {
@@ -53,4 +65,8 @@
     font-size: 18px;
     line-height: 20px;
     max-width: 400px;
+
+    @include respond-below(sm) {
+        text-align: center;
+    }
 }

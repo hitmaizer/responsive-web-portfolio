@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Oxygen:wght@400;700&family=Prompt:wght@200;500;700&display=swap');
 @import "myvariables";
+@import "responsive-mixin";
+@import "rem-mixin";
 @import "globals";
 @import "card";
 @import "intro";
