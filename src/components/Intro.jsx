@@ -1,12 +1,16 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { Mail, Phone } from '@styled-icons/material';
 import Card from "../elements/CardStyles";
 
-export default function Intro() {
+export default function Intro({ darkMode }) {
+    
     return (
         <Card>
             <div className="intro__card flex-row">
-                <img className="card__photo" src="images/avatar.png" alt="" />
+                {darkMode === "light" && <img className="card__avatar" src="images/avatar-light.svg" alt="" />}
+                {darkMode === "dark" && <img className="card__avatar" src="images/avatar-dark.svg" alt="" />}
+                
                 <div className="card__info flex-col">
                     <div className="info__details flex-row">
                         <div className="details">
