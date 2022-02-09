@@ -11,51 +11,51 @@ export default function Skills() {
                     <div className="skills__item flex-row">
                         <p className="item__name">HTML</p>
                         <div className="item__icon flex-row">
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
                         </div>
                     </div>
                     <div className="skills__item flex-row">
                         <p className="item__name">CSS</p>
                         <div className="item__icon flex-row">
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <StarHalf size="24px" color="#FFF175" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <StarHalf size="24px" className="star__icon" />
                         </div>
                     </div>
                     <div className="skills__item flex-row">
                         <p className="item__name">JavaScript</p>
                         <div className="item__icon flex-row">
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <StarHalf size="24px" color="#FFF175" />
-                            <StarOutline size="24px" color="#FFF175" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <StarOutline size="24px" className="star__icon" />
                         </div>
                     </div>
                     <div className="skills__item flex-row">
                         <p className="item__name">React</p>
                         <div className="item__icon flex-row">
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <StarHalf size="24px" color="#FFF175" />
-                            <StarOutline size="24px" color="#FFF175"/>
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <StarOutline size="24px" className="star__icon"/>
                         </div>
                     </div>
                     <div className="skills__item flex-row">
                         <p className="item__name">SASS</p>
                         <div className="item__icon flex-row">
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <StarOutline size="24px" color="#FFF175" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <StarOutline size="24px" className="star__icon" />
                         </div>
                     </div>
                 </div>
@@ -64,21 +64,21 @@ export default function Skills() {
                     <div className="skills__item flex-row">
                         <p className="item__name">Figma</p>
                         <div className="item__icon flex-row">
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <StarHalf size="24px" color="#FFF175" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <StarHalf size="24px" className="star__icon" />
                         </div>
                     </div>
                     <div className="skills__item flex-row">
                         <p className="item__name">Adobe XD</p>
                         <div className="item__icon flex-row">
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <Star size="24px" color="#FFF175" />
-                            <StarOutline size="24px" color="#FFF175" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <Star size="24px" className="star__icon" />
+                            <StarOutline size="24px" className="star__icon" />
                         </div>
                     </div>
                 </div>
