@@ -137,5 +137,53 @@ export default {
             "code": "",
             "link":  "https://tinyurl.com/yckpwfsh",
         },
+        
+        {
+            "id": "13",
+            "title": "Page 404",
+            "img": "page404.png",
+            "tags": ["HTML", "CSS", "SCSS"],
+            "category": "responsive",
+            "description": "A simple 404 page.",
+            "demo": "https://page-404-one.vercel.app/",
+            "code": "https://github.com/hitmaizer/responsive-web-404",
+            "link":  "",
+        },
+        
+        {
+            "id": "14",
+            "title": "My Team Page",
+            "img": "teampage.png",
+            "tags": ["HTML", "CSS", "SCSS"],
+            "category": "responsive",
+            "description": "A simple team page as a part of devChallenges.io Responsive Web Developer path, challenging us to develop a specific image layout.",
+            "demo": "https://responsive-web-team-page.vercel.app/",
+            "code": "https://github.com/hitmaizer/responsive-web-teamPage",
+            "link":  "",
+        },
+        
+        {
+            "id": "15",
+            "title": "My Gallery",
+            "img": "mygallery.png",
+            "tags": ["HTML", "CSS", "SCSS"],
+            "category": "responsive",
+            "description": "A simple gallery page as a part of devChallenges.io Responsive Web Developer path, challenging us to develop a specific image layout.",
+            "demo": "https://my-gallery-three.vercel.app/",
+            "code": "https://github.com/hitmaizer/my-gallery",
+            "link":  "",
+        },
+        
+        {
+            "id": "16",
+            "title": "Recipe Page",
+            "img": "recipe.png",
+            "tags": ["HTML", "CSS", "SCSS"],
+            "category": "responsive",
+            "description": "A recipe page as a part of devChallenges.io Responsive Web Developer path.",
+            "demo": "https://recipe-master-page.vercel.app/",
+            "code": "https://github.com/hitmaizer/recipe-page-master",
+            "link":  "",
+        },
     ]
 }
