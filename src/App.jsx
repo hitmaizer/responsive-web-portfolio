@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 /* eslint-disable no-plusplus */
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
@@ -16,6 +17,7 @@ import GlobalStyles from './theme/GlobalStyles';
 export default function App() {
 
     const [filter, setFilter] = React.useState(0)
+    const [mode, setMode] = useLocalStorageState("mode", "light")
     
     function useLocalStorageState(key, initialValue) {
         const [value, setValue] = React.useState(() => {
@@ -30,7 +32,7 @@ export default function App() {
         return [value, setValue]
     }
     
-    const [mode, setMode] = useLocalStorageState("mode", "light")
+    
    
 
     function themeToggler() {
