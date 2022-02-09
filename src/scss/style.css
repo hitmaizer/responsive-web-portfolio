@@ -388,8 +388,8 @@ a, a:visited, a:hover, a:active {
 }
 
 .portfolio__img {
-  width: 770px;
-  height: 300px;
+  width: 460px;
+  height: 450px;
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
