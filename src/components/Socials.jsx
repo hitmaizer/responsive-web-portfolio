@@ -3,15 +3,11 @@
 import React from 'react';
 import { Twitter, Linkedin, Dribbble, Github } from '@styled-icons/boxicons-logos';
 import { Sun, Moon } from '@styled-icons/boxicons-regular';
-import PropTypes from 'prop-types';
 import Card from '../elements/CardStyles';
 
 
 export default function Socials(props) {
     
-    Socials.defaultProps = {
-        clickHandler: PropTypes.func
-    }
 
     return (
         <Card>
