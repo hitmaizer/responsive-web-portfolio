@@ -12,6 +12,10 @@ export default styled.button`
   // max-width: 135px;
   max-height: 46px;
 
+  @media only screen and (max-width: 576px) {
+        padding: 6px 18px;
+    }
+
 
   
   &:hover {
