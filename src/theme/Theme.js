@@ -41,7 +41,7 @@ export default {
                     subText: "#E3E3E3",
                     offGray: "#E0E0E0",
                     cardTitle2: "#B0B0B0",
-                    primaryBlue: "#60A5FA",
+                    primaryBlue: "#8EB7ED",
                     darkenBlue: "#4576B2",
                     btnText: "#FCFCFC",
                     gradient: "",
