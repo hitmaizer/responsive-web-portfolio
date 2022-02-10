@@ -15,22 +15,22 @@ export default function Socials(props) {
                 <h3 className="socials__title">Follow me on my socials!</h3>
                 <div className="socials__icons flex-row">
                     <div className="icons__item flex-col">
-                        <a href="https://www.linkedin.com/in/hitmaizer/">
+                        <a href="https://www.linkedin.com/in/hitmaizer/" target="_blank" rel="noreferrer">
                             <Linkedin size="40px" className="linkedin" />
                         </a>
                     </div>
                     <div className="icons__item flex-col">
-                        <a href="https://twitter.com/josesousalves">
+                        <a href="https://twitter.com/josesousalves" target="_blank" rel="noreferrer">
                             <Twitter size="40px" className="twitter" />
                         </a>
                     </div>
                     <div className="icons__item flex-col">
-                        <a href="https://github.com/hitmaizer">
+                        <a href="https://github.com/hitmaizer" target="_blank" rel="noreferrer">
                             <Github size="40px" className="github" />
                         </a>
                     </div>
                     <div className="icons__item flex-col">
-                        <a href="https://dribbble.com/hitmaizer">
+                        <a href="https://dribbble.com/hitmaizer" target="_blank" rel="noreferrer">
                             <Dribbble size="40px" className="dribbble" />
                         </a>
                     </div>
