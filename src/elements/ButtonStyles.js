@@ -47,7 +47,7 @@ export default styled.button`
   `}
 
   ${(props) => props.filterBtn && css `
-    border: 2px solid ${props.cardTitle1};
+    border: 1px solid ${props.cardTitle1};
     background: transparent;
     color: ${props.theme.cardTitle1};
     &:hover {
