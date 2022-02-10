@@ -6,7 +6,7 @@ export default function Portfolio({ darkMode }) {
     return (
         <div className="portfolio__card">
             <Card>
-                <h5 className="portfolio__category">Blog</h5>
+                <h5 className="portfolio__category">Portfolio Page</h5>
                 <div className="portfolio__midsection flex-col">
                     <h3 className="portfolio__title">A bit more info about this page!</h3>
                     {darkMode === "light" && <img src="images/dev-light.svg" alt="" className="portfolio__img" />}
