@@ -551,6 +551,10 @@ a, a:visited, a:hover, a:active {
   font-family: "Oxygen", sans-serif;
 }
 
+.toggle {
+  cursor: pointer;
+}
+
 .page__grid {
   display: -ms-grid;
   display: grid;
