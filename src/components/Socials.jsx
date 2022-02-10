@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
@@ -36,9 +37,9 @@ export default function Socials(props) {
                     </div>
                 </div>
             <div className="toggle__container">
-                <div className="toggle">
+                <div className="toggle" onClick={props.clickHandler}>
                     <div className="toggle__btn" >
-                        {props.darkMode === "light" ? <Moon size="24px" className="btn__icon" onClick={props.clickHandler} /> : <Sun size="24px" className="btn__icon" onClick={props.clickHandler} /> }
+                        {props.darkMode === "light" ? <Moon size="24px" className="btn__icon"  /> : <Sun size="24px" className="btn__icon" onClick={props.clickHandler} /> }
                         
                     </div>
                 </div>
