@@ -16,7 +16,7 @@
 }
 
 .certificate__item {
-    gap: 24px;
+    gap: 64px;
     padding: 16px;
 
     @include respond-below(sm) {
