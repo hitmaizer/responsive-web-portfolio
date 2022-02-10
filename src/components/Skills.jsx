@@ -60,7 +60,7 @@ export default function Skills() {
                     </div>
                 </div>
                 <div className="skill__design">
-                    <h3 className="skills__title">Design</h3>
+                    <h3 className="skills__title">UI/UX</h3>
                     <div className="skills__item flex-row">
                         <p className="item__name">Figma</p>
                         <div className="item__icon flex-row">
