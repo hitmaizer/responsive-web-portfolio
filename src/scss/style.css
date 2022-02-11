@@ -113,6 +113,7 @@ a, a:visited, a:hover, a:active {
   line-height: 29px;
   place-self: flex-start;
   width: 100%;
+  margin-top: 16px;
 }
 
 .card__container .card__description {
@@ -124,12 +125,14 @@ a, a:visited, a:hover, a:active {
   place-self: flex-start;
   min-height: 80px;
   width: 100%;
+  margin-top: 16px;
 }
 
 .card__container .card__btns {
   gap: 16px;
   place-self: flex-start;
   width: 100%;
+  margin-top: 16px;
 }
 
 .card__container .card__img {

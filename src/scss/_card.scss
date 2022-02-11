@@ -45,6 +45,7 @@
         line-height: 29px;
         place-self: flex-start;
         width: 100%;
+        margin-top: 16px;
     }
     
     .card__description {
@@ -56,12 +57,14 @@
         place-self: flex-start;
         min-height: 80px;
         width: 100%;
+        margin-top: 16px;
     }
     
     .card__btns {
         gap: 16px;
         place-self: flex-start;
         width: 100%;
+        margin-top: 16px;
     }
     
     .card__img {
