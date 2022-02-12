@@ -10,7 +10,7 @@ export default function WorksCard(props) {
 
     return (
             <CardStyled className="card__container">
-                <a href={props.demo || props.link} target="_blank" rel="noreferrer">
+                <a href={props.demo || props.link} target="_blank" rel="noreferrer" className="anchor__link">
                     <img src={`images/works/${props.image}`} alt="" className="card__img" />
                     <div className="card__tags flex-row">
                         <p className="card__tags--item">#{props.tags[0]}</p>
