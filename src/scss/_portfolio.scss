@@ -12,11 +12,18 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 24px;
+    @include respond-below(md) {
+      font-size: rem(12px);
+    }
 }
 
 .portfolio__midsection {
     gap: 40px;
     place-items: flex-start;
+
+    @include respond-below(md) {
+      gap: 16px;
+    }
     
     
 }
@@ -28,12 +35,15 @@
     line-height: 29px;
     max-width: 370px;
     margin-left: 32px;
+    @include respond-below(md) {
+      font-size: rem(24px);
+      max-width: 200px;
+    }
 }
 
 .portfolio__img {
     max-width: 460px;
     max-height: 450px;
-    // max-height: 100%;
     object-fit: cover;
     border-radius: 12px;
     place-self: center;
@@ -49,4 +59,11 @@
     margin-top: 32px;
     margin-bottom: 48px;
     margin-left: 32px;
+
+    @include respond-below(md) {
+        max-width: rem(277px);
+        margin: 0 auto;
+        font-size: rem(16px);
+        
+    }
 }

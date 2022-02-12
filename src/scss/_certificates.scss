@@ -21,6 +21,7 @@
 
     @include respond-below(sm) {
       flex-direction: column;
+      gap: rem(16px);
     }
 }
 
