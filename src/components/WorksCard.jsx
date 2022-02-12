@@ -19,6 +19,7 @@ export default function WorksCard(props) {
                     </div>
                     <h1 className="card__title">{props.title}</h1>
                     <p className="card__description">{props.description}</p>
+                </a>
                     <div className="card__btns flex-row">
                         {props.demo && 
                         <Btn primary>
@@ -41,7 +42,6 @@ export default function WorksCard(props) {
                         
                         
                     </div>
-                </a>
             </CardStyled>
         
 
