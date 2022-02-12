@@ -6,8 +6,8 @@
     place-content: center;
     transition: transform 0.2s ease;
 
-    @include respond-below(md) {
-        width: 90% !important;
+    @include respond-below(lg) {
+        width: 100% !important;
       }
     
     &:hover {
@@ -34,6 +34,9 @@
         line-height: 20px;
         overflow: hidden;
         max-width: 10ch;
+        @include respond-below(sm) {
+          font-size: rem(12px);
+        }
         
         
     }
@@ -46,6 +49,9 @@
         place-self: flex-start;
         width: 100%;
         margin-top: 16px;
+        @include respond-below(sm) {
+          font-size: rem(18px);
+        }
     }
     
     .card__description {
@@ -58,6 +64,10 @@
         min-height: 80px;
         width: 100%;
         margin-top: 16px;
+        @include respond-below(sm) {
+          font-size: rem(14px);
+          max-width: rem(220px);
+        }
     }
     
     .card__btns {
@@ -75,9 +85,14 @@
         place-self: center;
 
         @include respond-below(sm) {
-          max-height: rem(150px);
-          max-width: rem(310px);
+            max-height: 12.375rem;
+            max-width: 20.625rem;
         }
+    }
+
+    .anchor__link {
+        width: 100%;
+        display: inline-block;
     }
 }
 
