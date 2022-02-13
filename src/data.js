@@ -3,12 +3,24 @@ export default {
         {
             "id": "22",
             "title": "Windbnb",
-            "img": "boarding.jpg",
+            "img": "windbnb.png",
             "tags": ["React", "JS", "SCSS"],
             "category": "react",
             "description": "A clone page of Airbnb, focused on dynamic rendering of components based on condition, through mapping and filtering of available data.",
             "demo": "https://windbnb-hitmaizer.vercel.app/",
             "code": "https://github.com/hitmaizer/windbnb",
+            "link":  "",
+        },
+        
+        {
+            "id": "23",
+            "title": "Input Components",
+            "img": "inputcomponents.png",
+            "tags": ["React", "JS", "SCSS"],
+            "category": "react",
+            "description": "A series of different renders of the same input component based on different properties given. Made as part of the Front End Developer path on devChallenges.io",
+            "demo": "https://inputs-components-hitmaizer.vercel.app/",
+            "code": "https://github.com/hitmaizer/inputs-components",
             "link":  "",
         },
         
