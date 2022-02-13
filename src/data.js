@@ -1,6 +1,18 @@
 export default {
     "works": [
         {
+            "id": "22",
+            "title": "Windbnb",
+            "img": "boarding.jpg",
+            "tags": ["React", "JS", "SCSS"],
+            "category": "react",
+            "description": "A clone page of Airbnb, focused on dynamic rendering of components based on condition, through mapping and filtering of available data.",
+            "demo": "https://windbnb-hitmaizer.vercel.app/",
+            "code": "https://github.com/hitmaizer/windbnb",
+            "link":  "",
+        },
+        
+        {
             "id": "1",
             "title": "Interior Consultant",
             "img": "interior.png",
@@ -241,5 +253,6 @@ export default {
             "code": "",
             "link":  "https://dribbble.com/shots/15354250-Boarding-Pass",
         },
+        
     ]
 }
