@@ -1,6 +1,30 @@
 export default {
     "works": [
         {
+            "id": "25",
+            "title": "Todo app",
+            "img": "todo.png",
+            "tags": ["React", "JS", "SCSS"],
+            "category": "react",
+            "description": "Simple To-Do app, made with React, uses a series of useState Hooks to keep track of the tasks state, as well as some mapping and filtering for the conditional rendering of tasks, depending on their state.",
+            "demo": "https://todo-list-hitmaizer.vercel.app/",
+            "code": "https://github.com/hitmaizer/todo-list",
+            "link":  "",
+        },
+        
+        {
+            "id": "24",
+            "title": "Random Quote Generator",
+            "img": "quotes.png",
+            "tags": ["React", "JS", "SCSS"],
+            "category": "react",
+            "description": "A simple quote generator made with React. Fetches data from an API, renders a random one, and we can look for more results from the same author with a click of the button.",
+            "demo": "https://quote-generator-hitmaizer.vercel.app/",
+            "code": "https://github.com/hitmaizer/quote-generator",
+            "link":  "",
+        },
+        
+        {
             "id": "22",
             "title": "Windbnb",
             "img": "windbnb.png",
@@ -75,7 +99,7 @@ export default {
             "tags": ["React", "JS", "SCSS"],
             "category": "react",
             "description": "A simple quizz game. Fetches 4 random questions from an API and then checks the results!",
-            "demo": "https://quizz-react.vercel.app/",
+            "demo": "https://quizz-react-hitmaizer.vercel.app/",
             "code": "https://github.com/hitmaizer/quizz-project",
         },
         
