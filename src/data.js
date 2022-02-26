@@ -1,6 +1,28 @@
 export default {
     "works": [
         {
+            "id": "26",
+            "title": "Weather app",
+            "img": "weather.png",
+            "tags": ["React", "JS", "SCSS"],
+            "category": "react",
+            "description": "A Weather app, made with React, you can search for a location, automatically get your own position, browse and re-order the popular cities!",
+            "demo": "https://weather-app-hitmaizer.vercel.app/",
+            "code": "https://github.com/hitmaizer/weather-app",
+            "link":  "",
+        },
+        {
+            "id": "27",
+            "title": "Country quizz",
+            "img": "country.png",
+            "tags": ["React", "JS", "SCSS"],
+            "category": "react",
+            "description": "A country quizz game with capitals and flag questions. If you get it right you get a next quesiton until you get a wrongful answer. How far can you go?",
+            "demo": "https://quiz-game-hitmaizer.vercel.app/",
+            "code": "https://github.com/hitmaizer/quiz-game",
+            "link":  "",
+        },
+        {
             "id": "25",
             "title": "Todo app",
             "img": "todo.png",
