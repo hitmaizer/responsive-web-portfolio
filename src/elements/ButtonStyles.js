@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 export default styled.button`
   border-radius: 8px;
@@ -13,47 +13,52 @@ export default styled.button`
   max-height: 46px;
 
   @media only screen and (max-width: 576px) {
-        padding: 6px 18px;
-    }
-
-
-  
-  &:hover {
-      transform: translateY(-3%);
-
+    padding: 6px 18px;
   }
 
-  ${(props) => props.primary && css `
-    border: none;
-    color: ${props.theme.btnText};
-    background-color: ${props.theme.primaryBlue};
-    &:hover {
+  &:hover {
+    transform: translateY(-3%);
+  }
+
+  ${(props) =>
+    props.primary &&
+    css`
+      border: none;
+
+      background-color: ${props.theme.primaryBlue};
+      a {
+        color: ${props.theme.btnText};
+      }
+      &:hover {
         background-color: ${props.theme.darkenBlue};
-    }
+      }
+    `}
 
-  `}
+  ${(props) =>
+    props.outline &&
+    css`
+      border: 2px solid ${props.theme.primaryBlue};
+      background: transparent;
 
-  ${(props) => props.outline && css `
-    border: 2px solid ${props.theme.primaryBlue};
-    background: transparent;
-    color: ${props.theme.primaryBlue};
-    
-    &:hover {
+      a {
+        color: ${props.theme.primaryBlue};
+      }
+
+      &:hover {
         background: ${props.theme.darkenBlue};
         color: ${props.theme.btnText};
         border: 2px solid ${props.theme.darkenBlue};
-    }
-  
-  `}
+      }
+    `}
 
-  ${(props) => props.filterBtn && css `
-    border: 1px solid ${props.cardTitle1};
-    background: transparent;
-    color: ${props.theme.cardTitle1};
-    &:hover {
-      transform: translateY(0%);
-    }
-  `}
-
-
+  ${(props) =>
+    props.filterBtn &&
+    css`
+      border: 1px solid ${props.cardTitle1};
+      background: transparent;
+      color: ${props.theme.cardTitle1};
+      &:hover {
+        transform: translateY(0%);
+      }
+    `}
 `;
