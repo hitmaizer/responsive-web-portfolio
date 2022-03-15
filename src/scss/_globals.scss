@@ -1,36 +1,30 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .page__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: calc(100vw - 19px);
-    background-color: #F2F2F2;
-    padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100vw - 19px);
+  background-color: #f2f2f2;
+  padding: 16px;
 
-    @include respond-below(lg) {
-      padding: rem(4px);
-      width: 100%;
-    }
+  @include respond-below(lg) {
+    padding: rem(4px);
+    width: 100%;
+  }
 }
 
 .flex-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-a, a:visited, a:hover, a:active {
-    color: inherit;
-    text-decoration: none;
-  }
-
