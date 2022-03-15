@@ -1,10 +1,17 @@
-import { createGlobalStyle } from 'styled-components';
-
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     body {
         color: ${(props) => props.theme.text};
         font-family: ${(props) => props.theme.font};
+    }
+
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        color: ${(props) => props.theme.text};
+        text-decoration: none;
     }
 
     .page__wrapper{
@@ -179,4 +186,7 @@ export default createGlobalStyle`
         
     }
 
-`
+    .certificate__title a {
+        color: #2F80ED;
+    }
+`;
