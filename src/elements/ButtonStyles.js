@@ -26,11 +26,18 @@ export default styled.button`
       border: none;
 
       background-color: ${props.theme.primaryBlue};
-      a {
+      a,
+      a:visited,
+      a:hover,
+      a:active {
         color: ${props.theme.btnText};
+        &: hover {
+          color: ${props.theme.btnText};
+        }
       }
       &:hover {
         background-color: ${props.theme.darkenBlue};
+        color: ${props.theme.btnText};
       }
     `}
 
@@ -40,7 +47,10 @@ export default styled.button`
       border: 2px solid ${props.theme.primaryBlue};
       background: transparent;
 
-      a {
+      a,
+      a:visited,
+      a:hover,
+      a:active {
         color: ${props.theme.primaryBlue};
       }
 
@@ -48,6 +58,9 @@ export default styled.button`
         background: ${props.theme.darkenBlue};
         color: ${props.theme.btnText};
         border: 2px solid ${props.theme.darkenBlue};
+        a {
+          color: ${props.theme.btnText};
+        }
       }
     `}
 
